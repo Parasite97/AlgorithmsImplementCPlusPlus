@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0)
+project(ALGORITHM)
+aux_source_directory(. DIR_SRS)
+include_directories("${PROJECT_SOURCE_DIR}/AlgorithmsImplement")
+add_subdirectory(AlgorithmsImplement)
+add_executable(ALGORITHM main.cpp)
+target_link_libraries(ALGORITHM FUNC_ALGORITHM)

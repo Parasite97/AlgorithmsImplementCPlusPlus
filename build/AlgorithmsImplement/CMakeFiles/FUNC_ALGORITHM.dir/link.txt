@@ -1,0 +1,2 @@
+F:/_Programing/MinGW/mingw64/bin/ar.exe qc libFUNC_ALGORITHM.a  CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.obj
+F:/_Programing/MinGW/mingw64/bin/ranlib.exe libFUNC_ALGORITHM.a

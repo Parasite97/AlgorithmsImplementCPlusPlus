@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../AlgorithmsImplement/BaseAlgorithm.h
+iostream
+-
+string
+-
+
+D:/Study/_Data/VisualStudioCodeData/Algorithms/main.cpp
+iostream
+-
+BaseAlgorithm.h
+D:/Study/_Data/VisualStudioCodeData/Algorithms/BaseAlgorithm.h
+

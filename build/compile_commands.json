@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/Study/_Data/VisualStudioCodeData/Algorithms/build",
+  "command": "F:/_Programing/MinGW/mingw64/bin/g++.exe   @CMakeFiles/ALGORITHM.dir/includes_CXX.rsp -g   -o CMakeFiles/ALGORITHM.dir/main.cpp.obj -c D:/Study/_Data/VisualStudioCodeData/Algorithms/main.cpp",
+  "file": "D:/Study/_Data/VisualStudioCodeData/Algorithms/main.cpp"
+},
+{
+  "directory": "D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement",
+  "command": "F:/_Programing/MinGW/mingw64/bin/g++.exe   @CMakeFiles/FUNC_ALGORITHM.dir/includes_CXX.rsp -g   -o CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.obj -c D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/BaseAlgorithm.cpp",
+  "file": "D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/BaseAlgorithm.cpp"
+}
+]
