@@ -5,11 +5,9 @@ using namespace std;
 
 int main(){
     cout << "hello!" << endl;
-    int *a;
-    a = InputOneDimensionArray();
-    int num;
+    int m;
+    m = EuclidAlgorithm(77, 888);
+    cout << "888 and 77 EuclideNumber:" << m << endl;
 
-    num = BinarySearchAlgorithmInt(a, 6, 20);
-    
     return 0;
 }

@@ -19,6 +19,7 @@ int *InputOneDimensionArray(){
     return array;
 }
 
+//二分查找 int型数组
 int BinarySearchAlgorithmInt(int a[], int length, int num){
     int low = 0;
     int high = length;
@@ -40,5 +41,26 @@ int BinarySearchAlgorithmInt(int a[], int length, int num){
     else{
         cout << "Search failed!" << endl;
         return 0;
+    }
+}
+
+//欧几里得算法 最大公约数
+int EuclidAlgorithm(int m, int n){
+    int r;
+    if(m < n){
+        int temp;
+        temp = m;
+        m = n;
+        n = temp;
+    }
+    r = m % n;
+    cout << "m:" << m << " n:" << n << endl;
+
+    if(r == 0){
+        //cout << m << " and " << n << " EuclidNumber is " << n << endl;
+        return n;
+    }
+    else{
+        return EuclidAlgorithm(n, r);  
     }
 }
