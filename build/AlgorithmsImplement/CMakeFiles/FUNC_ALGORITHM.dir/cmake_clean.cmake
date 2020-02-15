@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.obj"
+  "CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj"
+  "CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj"
   "libFUNC_ALGORITHM.a"
   "libFUNC_ALGORITHM.pdb"
 )

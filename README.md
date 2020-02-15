@@ -3,10 +3,10 @@
 # Algorithms Implement
 
 ## 0.初始算法——二分查找算法
-**文件：**BaseAlgorithms.h 和BaseAlgorithms.cpp中的BinarySearchAlgorithmInt（）
+**文件：**BaseAlgorithms.h 和BaseAlgorithms.cpp中的binarySearchAlgorithmInt（）
 
 ```c++
-SearchAlgorithmInt(int a[], int length);
+binarySearchAlgorithmInt(int a[], int length);
 ```
 
 **思路**：
@@ -15,7 +15,7 @@ SearchAlgorithmInt(int a[], int length);
 **实现代码**:
 
 ```c++
-	int BinarySearchAlgorithmInt(int a[], int length, int num){
+	int binarySearchAlgorithmInt(int a[], int length, int num){
 		int low = 0;
 		int high = length;
 		int mid = (low + high) / 2;
@@ -46,10 +46,10 @@ SearchAlgorithmInt(int a[], int length);
 
 ## 1.欧几里得算法（辗转相除法）
   求两个正整数的最大公约数
-  **文件：**BaseAlgorithms.h 和BaseAlgorithms.cpp中的EuclidAlgorithm（）
+  **文件：**BaseAlgorithms.h 和BaseAlgorithms.cpp中的euclidAlgorithm（）
 
   ```c++
-  int EuclidAlgorithm(int m, int n);
+  int euclidAlgorithm(int m, int n);
   ```
 
   > **思路**
@@ -61,7 +61,7 @@ SearchAlgorithmInt(int a[], int length);
   **实现**
 
   ```c++
-    int EuclidAlgorithm(int m, int n){
+    int euclidAlgorithm(int m, int n){
         int r;
         if(m < n){
             int temp;
@@ -77,10 +77,10 @@ SearchAlgorithmInt(int a[], int length);
             return n;
         }
         else{
-            return EuclidAlgorithm(n, r);  
+            return euclidAlgorithm(n, r);  
         }
     }
-```
+  ```
 
 ***
 

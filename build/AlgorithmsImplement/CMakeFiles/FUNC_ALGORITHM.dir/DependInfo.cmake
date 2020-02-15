@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/BaseAlgorithm.cpp" "D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.obj"
+  "D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/BaseElement.cpp" "D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj"
+  "D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/SortAlgorithm.cpp" "D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

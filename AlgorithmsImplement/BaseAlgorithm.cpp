@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-int *InputOneDimensionArray(){
+int *inputOneDimensionArray(){
     cout << "Please input your want array:" << endl;
     cout << "Arrary size:";
     int arrarySize;
@@ -20,7 +20,7 @@ int *InputOneDimensionArray(){
 }
 
 //二分查找 int型数组
-int BinarySearchAlgorithmInt(int a[], int length, int num){
+int binarySearchAlgorithmInt(int a[], int length, int num){
     int low = 0;
     int high = length;
     int mid = (low + high) / 2;
@@ -45,7 +45,7 @@ int BinarySearchAlgorithmInt(int a[], int length, int num){
 }
 
 //欧几里得算法 最大公约数
-int EuclidAlgorithm(int m, int n){
+int euclidAlgorithm(int m, int n){
     int r;
     if(m < n){
         int temp;
@@ -61,6 +61,6 @@ int EuclidAlgorithm(int m, int n){
         return n;
     }
     else{
-        return EuclidAlgorithm(n, r);  
+        return euclidAlgorithm(n, r);  
     }
 }

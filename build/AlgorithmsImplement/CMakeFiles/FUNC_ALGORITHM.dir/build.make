@@ -71,17 +71,49 @@ AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.s"
 	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement && F:/_Programing/MinGW/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/BaseAlgorithm.cpp -o CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.s
 
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj: AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/flags.make
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj: AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/includes_CXX.rsp
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj: ../AlgorithmsImplement/BaseElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj"
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement && F:/_Programing/MinGW/mingw64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj -c D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/BaseElement.cpp
+
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.i"
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement && F:/_Programing/MinGW/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/BaseElement.cpp > CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.i
+
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.s"
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement && F:/_Programing/MinGW/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/BaseElement.cpp -o CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.s
+
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj: AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/flags.make
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj: AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/includes_CXX.rsp
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj: ../AlgorithmsImplement/SortAlgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj"
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement && F:/_Programing/MinGW/mingw64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj -c D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/SortAlgorithm.cpp
+
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.i"
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement && F:/_Programing/MinGW/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/SortAlgorithm.cpp > CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.i
+
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.s"
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement && F:/_Programing/MinGW/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Study/_Data/VisualStudioCodeData/Algorithms/AlgorithmsImplement/SortAlgorithm.cpp -o CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.s
+
 # Object files for target FUNC_ALGORITHM
 FUNC_ALGORITHM_OBJECTS = \
-"CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.obj"
+"CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.obj" \
+"CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj" \
+"CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj"
 
 # External object files for target FUNC_ALGORITHM
 FUNC_ALGORITHM_EXTERNAL_OBJECTS =
 
 AlgorithmsImplement/libFUNC_ALGORITHM.a: AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.obj
+AlgorithmsImplement/libFUNC_ALGORITHM.a: AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj
+AlgorithmsImplement/libFUNC_ALGORITHM.a: AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj
 AlgorithmsImplement/libFUNC_ALGORITHM.a: AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build.make
 AlgorithmsImplement/libFUNC_ALGORITHM.a: AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libFUNC_ALGORITHM.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libFUNC_ALGORITHM.a"
 	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement && $(CMAKE_COMMAND) -P CMakeFiles/FUNC_ALGORITHM.dir/cmake_clean_target.cmake
 	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build/AlgorithmsImplement && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FUNC_ALGORITHM.dir/link.txt --verbose=$(VERBOSE)
 

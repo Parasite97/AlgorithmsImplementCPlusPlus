@@ -99,7 +99,7 @@ CMakeFiles/ALGORITHM.dir/all: AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ALGORITHM.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ALGORITHM.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles 0
 .PHONY : CMakeFiles/ALGORITHM.dir/rule
@@ -121,12 +121,12 @@ CMakeFiles/ALGORITHM.dir/clean:
 AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/all:
 	$(MAKE) -f AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build.make AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/depend
 	$(MAKE) -f AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build.make AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles --progress-num=3,4 "Built target FUNC_ALGORITHM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles --progress-num=3,4,5,6 "Built target FUNC_ALGORITHM"
 .PHONY : AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/all
 
 # Build rule for subdir invocation for target.
 AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:/Study/_Data/VisualStudioCodeData/Algorithms/build/CMakeFiles 0
 .PHONY : AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/rule

@@ -2,10 +2,10 @@
 #include <string>
 
 //fundamental function
-int *InputOneDimensionArray();
+int *inputOneDimensionArray();
 
 
 //BaseAlgorithms
 
-int BinarySearchAlgorithmInt(int a[], int length, int num);
-int EuclidAlgorithm(int m, int n);
+int binarySearchAlgorithmInt(int a[], int length, int num);
+int euclidAlgorithm(int m, int n);

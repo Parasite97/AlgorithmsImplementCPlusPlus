@@ -152,6 +152,60 @@ BaseAlgorithm.cpp.s:
 	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build && $(MAKE) -f AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build.make AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.s
 .PHONY : BaseAlgorithm.cpp.s
 
+BaseElement.obj: BaseElement.cpp.obj
+
+.PHONY : BaseElement.obj
+
+# target to build an object file
+BaseElement.cpp.obj:
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build && $(MAKE) -f AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build.make AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj
+.PHONY : BaseElement.cpp.obj
+
+BaseElement.i: BaseElement.cpp.i
+
+.PHONY : BaseElement.i
+
+# target to preprocess a source file
+BaseElement.cpp.i:
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build && $(MAKE) -f AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build.make AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.i
+.PHONY : BaseElement.cpp.i
+
+BaseElement.s: BaseElement.cpp.s
+
+.PHONY : BaseElement.s
+
+# target to generate assembly for a file
+BaseElement.cpp.s:
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build && $(MAKE) -f AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build.make AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.s
+.PHONY : BaseElement.cpp.s
+
+SortAlgorithm.obj: SortAlgorithm.cpp.obj
+
+.PHONY : SortAlgorithm.obj
+
+# target to build an object file
+SortAlgorithm.cpp.obj:
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build && $(MAKE) -f AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build.make AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj
+.PHONY : SortAlgorithm.cpp.obj
+
+SortAlgorithm.i: SortAlgorithm.cpp.i
+
+.PHONY : SortAlgorithm.i
+
+# target to preprocess a source file
+SortAlgorithm.cpp.i:
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build && $(MAKE) -f AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build.make AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.i
+.PHONY : SortAlgorithm.cpp.i
+
+SortAlgorithm.s: SortAlgorithm.cpp.s
+
+.PHONY : SortAlgorithm.s
+
+# target to generate assembly for a file
+SortAlgorithm.cpp.s:
+	cd D:/Study/_Data/VisualStudioCodeData/Algorithms/build && $(MAKE) -f AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/build.make AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.s
+.PHONY : SortAlgorithm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,6 +218,12 @@ help:
 	@echo "... BaseAlgorithm.obj"
 	@echo "... BaseAlgorithm.i"
 	@echo "... BaseAlgorithm.s"
+	@echo "... BaseElement.obj"
+	@echo "... BaseElement.i"
+	@echo "... BaseElement.s"
+	@echo "... SortAlgorithm.obj"
+	@echo "... SortAlgorithm.i"
+	@echo "... SortAlgorithm.s"
 .PHONY : help
 
 

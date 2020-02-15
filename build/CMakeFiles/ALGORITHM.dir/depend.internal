@@ -3,4 +3,6 @@
 
 CMakeFiles/ALGORITHM.dir/main.cpp.obj
  ../AlgorithmsImplement/BaseAlgorithm.h
+ ../AlgorithmsImplement/BaseElement.h
+ ../AlgorithmsImplement/SortAlgorithm.h
  D:/Study/_Data/VisualStudioCodeData/Algorithms/main.cpp

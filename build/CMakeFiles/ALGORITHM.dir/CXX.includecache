@@ -12,9 +12,21 @@ iostream
 string
 -
 
+../AlgorithmsImplement/BaseElement.h
+iostream
+-
+
+../AlgorithmsImplement/SortAlgorithm.h
+iostream
+-
+BaseElement.h
+../AlgorithmsImplement/BaseElement.h
+
 D:/Study/_Data/VisualStudioCodeData/Algorithms/main.cpp
 iostream
 -
 BaseAlgorithm.h
 D:/Study/_Data/VisualStudioCodeData/Algorithms/BaseAlgorithm.h
+SortAlgorithm.h
+D:/Study/_Data/VisualStudioCodeData/Algorithms/SortAlgorithm.h
 

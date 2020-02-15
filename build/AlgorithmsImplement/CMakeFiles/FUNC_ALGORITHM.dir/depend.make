@@ -4,3 +4,10 @@
 AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.obj: ../AlgorithmsImplement/BaseAlgorithm.cpp
 AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseAlgorithm.cpp.obj: ../AlgorithmsImplement/BaseAlgorithm.h
 
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj: ../AlgorithmsImplement/BaseElement.cpp
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/BaseElement.cpp.obj: ../AlgorithmsImplement/BaseElement.h
+
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj: ../AlgorithmsImplement/BaseElement.h
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj: ../AlgorithmsImplement/SortAlgorithm.cpp
+AlgorithmsImplement/CMakeFiles/FUNC_ALGORITHM.dir/SortAlgorithm.cpp.obj: ../AlgorithmsImplement/SortAlgorithm.h
+
